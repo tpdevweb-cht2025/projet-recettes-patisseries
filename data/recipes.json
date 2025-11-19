@@ -1,0 +1,204 @@
+[
+  {
+    "id": 1,
+    "nom": "Éclair au chocolat",
+    "description": "Pâte à choux garnie de crème pâtissière au chocolat et glacée au fondant",
+    "temps_preparation": 45,
+    "temps_cuisson": 25,
+    "portions": 8,
+    "difficulte": "intermediaire",
+    "image": "eclair-chocolat.jpg",
+    "conseils": "Ne jamais ouvrir le four pendant la cuisson des choux, ils retomberaient ! La pâte doit être brillante et former un ruban.",
+    "ingredients": [
+      { "quantite": 250, "unite": "ml", "nom": "eau" },
+      { "quantite": 100, "unite": "g", "nom": "beurre" },
+      { "quantite": 150, "unite": "g", "nom": "farine" },
+      { "quantite": 4, "unite": "pièces", "nom": "œufs" },
+      { "quantite": 500, "unite": "ml", "nom": "lait" },
+      { "quantite": 100, "unite": "g", "nom": "sucre" },
+      { "quantite": 40, "unite": "g", "nom": "cacao en poudre" },
+      { "quantite": 4, "unite": "pièces", "nom": "jaunes d'œufs" },
+      { "quantite": 200, "unite": "g", "nom": "chocolat noir" },
+      { "quantite": 100, "unite": "g", "nom": "fondant pâtissier" }
+    ],
+    "etapes": [
+      "Préparer la pâte à choux en faisant bouillir l'eau et le beurre",
+      "Ajouter la farine d'un coup et mélanger énergiquement",
+      "Incorporer les œufs un par un hors du feu",
+      "Dresser des éclairs de 12 cm sur plaque avec poche à douille",
+      "Cuire 25 minutes à 180°C sans ouvrir le four",
+      "Préparer la crème pâtissière avec le lait, sucre, cacao et jaunes",
+      "Garnir les éclairs refroidis avec la crème",
+      "Faire fondre le chocolat et glacer le dessus",
+      "Décorer avec le fondant",
+      "Laisser prendre au frais 2 heures"
+    ],
+    "tags": ["dessert", "chocolat", "pâtisserie fine", "goûter"],
+    "ustensiles": [
+      "casserole",
+      "fouet",
+      "poche à douille",
+      "plaque de cuisson",
+      "spatule"
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Tarte Tatin",
+    "description": "Tarte renversée aux pommes caramélisées, spécialité du Loir-et-Cher",
+    "temps_preparation": 30,
+    "temps_cuisson": 40,
+    "portions": 6,
+    "difficulte": "facile",
+    "image": "tarte-tatin.jpg",
+    "conseils": "Choisissez des pommes qui tiennent bien à la cuisson. Le retournement doit être rapide et décidé !",
+    "ingredients": [
+      { "quantite": 1, "unite": "kg", "nom": "pommes Reinette" },
+      { "quantite": 150, "unite": "g", "nom": "sucre" },
+      { "quantite": 100, "unite": "g", "nom": "beurre demi-sel" },
+      { "quantite": 1, "unite": "pièce", "nom": "pâte feuilletée" },
+      { "quantite": 1, "unite": "c. à café", "nom": "cannelle" },
+      { "quantite": 1, "unite": "pincée", "nom": "sel" }
+    ],
+    "etapes": [
+      "Éplucher et couper les pommes en quartiers",
+      "Faire un caramel avec le sucre dans un moule",
+      "Ajouter le beurre au caramel",
+      "Disposer les pommes serrées dans le moule",
+      "Saupoudrer de cannelle",
+      "Recouvrir avec la pâte feuilletée en rentrant les bords",
+      "Cuire 40 minutes à 190°C",
+      "Laisser tiédir 10 minutes",
+      "Retourner d'un geste sec sur un plat",
+      "Servir tiède avec une boule de glace vanille"
+    ],
+    "tags": ["dessert", "pommes", "caramel", "automne", "traditionnel"],
+    "ustensiles": ["moule à manqué", "économe", "couteau", "four"]
+  },
+  {
+    "id": 3,
+    "nom": "Paris-Brest",
+    "description": "Couronne de pâte à choux garnie de crème mousseline pralinée",
+    "temps_preparation": 60,
+    "temps_cuisson": 30,
+    "portions": 8,
+    "difficulte": "difficile",
+    "image": "paris-brest.jpg",
+    "conseils": "La crème mousseline doit être à température ambiante pour un montage parfait. Battez bien pour obtenir une texture aérienne.",
+    "ingredients": [
+      { "quantite": 250, "unite": "ml", "nom": "eau" },
+      { "quantite": 100, "unite": "g", "nom": "beurre" },
+      { "quantite": 150, "unite": "g", "nom": "farine" },
+      { "quantite": 4, "unite": "pièces", "nom": "œufs" },
+      { "quantite": 50, "unite": "g", "nom": "amandes effilées" },
+      { "quantite": 500, "unite": "ml", "nom": "lait" },
+      { "quantite": 150, "unite": "g", "nom": "sucre" },
+      { "quantite": 6, "unite": "pièces", "nom": "jaunes d'œufs" },
+      { "quantite": 200, "unite": "g", "nom": "beurre pommade" },
+      { "quantite": 100, "unite": "g", "nom": "praliné noisette" },
+      { "quantite": 1, "unite": "c. à soupe", "nom": "sucre glace" }
+    ],
+    "etapes": [
+      "Réaliser une pâte à choux classique",
+      "Dresser une couronne de 20 cm de diamètre",
+      "Parsemer d'amandes effilées",
+      "Cuire 30 minutes à 180°C",
+      "Préparer une crème pâtissière épaisse",
+      "Laisser refroidir et incorporer le beurre pommade",
+      "Ajouter le praliné à la crème mousseline",
+      "Couper la couronne en deux horizontalement",
+      "Garnir généreusement de crème pralinée",
+      "Refermer et saupoudrer de sucre glace"
+    ],
+    "tags": ["dessert", "pâtisserie fine", "praliné", "fête", "noisette"],
+    "ustensiles": [
+      "casserole",
+      "fouet",
+      "poche à douille",
+      "batteur électrique",
+      "cercle à pâtisserie"
+    ]
+  },
+  {
+    "id": 4,
+    "nom": "Mille-feuille vanille",
+    "description": "Feuilletage croustillant alternant avec de la crème pâtissière vanillée",
+    "temps_preparation": 50,
+    "temps_cuisson": 35,
+    "portions": 6,
+    "difficulte": "difficile",
+    "image": "mille-feuilles.jpg",
+    "conseils": "Le feuilletage doit être ultra croustillant. N'hésitez pas à le cuire plus longtemps pour qu'il soit bien doré. Coupez avec un couteau scie pour ne pas écraser.",
+    "ingredients": [
+      { "quantite": 500, "unite": "g", "nom": "pâte feuilletée" },
+      { "quantite": 500, "unite": "ml", "nom": "lait" },
+      { "quantite": 1, "unite": "pièce", "nom": "gousse de vanille" },
+      { "quantite": 100, "unite": "g", "nom": "sucre" },
+      { "quantite": 50, "unite": "g", "nom": "maïzena" },
+      { "quantite": 4, "unite": "pièces", "nom": "jaunes d'œufs" },
+      { "quantite": 200, "unite": "g", "nom": "fondant blanc" },
+      { "quantite": 50, "unite": "g", "nom": "chocolat noir" },
+      { "quantite": 1, "unite": "c. à soupe", "nom": "sucre glace" }
+    ],
+    "etapes": [
+      "Étaler la pâte très finement et piquer à la fourchette",
+      "Cuire entre deux plaques 35 minutes à 180°C",
+      "Préparer la crème pâtissière avec la vanille fendue",
+      "Laisser refroidir la crème en contact",
+      "Découper le feuilletage en 3 rectangles égaux",
+      "Glacer le dessus d'un rectangle avec le fondant",
+      "Décorer de lignes de chocolat fondu",
+      "Monter en alternant feuilletage et crème",
+      "Terminer par la plaque glacée",
+      "Réfrigérer 3 heures avant de découper"
+    ],
+    "tags": ["dessert", "pâtisserie fine", "vanille", "classique", "élégant"],
+    "ustensiles": [
+      "rouleau à pâtisserie",
+      "casserole",
+      "fouet",
+      "plaque de cuisson",
+      "couteau scie"
+    ]
+  },
+  {
+    "id": 5,
+    "nom": "Financiers aux amandes",
+    "description": "Petits gâteaux moelleux à la poudre d'amande et au beurre noisette",
+    "temps_preparation": 20,
+    "temps_cuisson": 12,
+    "portions": 12,
+    "difficulte": "facile",
+    "image": "financier-amandes.jpg",
+    "conseils": "Le beurre noisette apporte ce goût caractéristique de noisette. Ne le faites pas trop cuire, il deviendrait amer. Les financiers doivent avoir une belle bosse sur le dessus.",
+    "ingredients": [
+      { "quantite": 150, "unite": "g", "nom": "beurre" },
+      { "quantite": 100, "unite": "g", "nom": "poudre d'amande" },
+      { "quantite": 150, "unite": "g", "nom": "sucre glace" },
+      { "quantite": 50, "unite": "g", "nom": "farine" },
+      { "quantite": 4, "unite": "pièces", "nom": "blancs d'œufs" },
+      { "quantite": 1, "unite": "pincée", "nom": "sel" },
+      { "quantite": 1, "unite": "c. à café", "nom": "extrait d'amande amère" }
+    ],
+    "etapes": [
+      "Faire un beurre noisette et laisser refroidir",
+      "Mélanger la poudre d'amande, le sucre glace et la farine",
+      "Ajouter les blancs d'œufs sans les battre",
+      "Incorporer le beurre noisette tiède",
+      "Ajouter l'extrait d'amande et le sel",
+      "Laisser reposer 1 heure au frais",
+      "Beurrer et fariner les moules à financiers",
+      "Remplir aux trois quarts",
+      "Cuire 12 minutes à 200°C",
+      "Démouler encore tièdes et laisser refroidir sur grille"
+    ],
+    "tags": ["dessert", "goûter", "amande", "rapide", "café gourmand"],
+    "ustensiles": [
+      "casserole",
+      "saladier",
+      "fouet",
+      "moules à financiers",
+      "grille de refroidissement"
+    ]
+  }
+]
