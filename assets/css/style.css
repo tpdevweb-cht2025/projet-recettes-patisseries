@@ -37,9 +37,14 @@ header.details a {
 .recipes {
   max-width: 1200px;
   margin: 3rem auto;
-  display: grid;
   gap: 1.5rem;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 640px) {
+  .recipes {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .recipes .recipe {
@@ -215,6 +220,12 @@ header.details a {
   gap: 1rem;
   margin: 2rem 0;
 }
+@media (max-width: 640px) {
+  .recipe-details .content .steps {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .recipe-details .content .ingredients ul {
   padding: 1rem 0;
   display: flex;

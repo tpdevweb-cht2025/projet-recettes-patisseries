@@ -1,6 +1,7 @@
 <?php
 $recipesJson = file_get_contents("data/recipes.json");
 $recettes = json_decode($recipesJson, true);
+
 // var_dump($recettes);
 ?>
 <!DOCTYPE html>
@@ -22,30 +23,32 @@ $recettes = json_decode($recipesJson, true);
     </header>
     <main>
         <div class="recipes">
-            <div class="recipe">
-                <div class="thumbnail">
-                    <span class="difficulty intermediaire">Intermédiaire</span>
-                    <a href="recette.php?id=1">
-                        <img src="./assets/images/eclair-chocolat.jpg" alt="Eclair au chocolat">
-                    </a>
-                </div>
-                <div class="content">
-                    <a href="recette.php?id=1">
-                        <h2>Eclair au chocolat</h2>
-                    </a>
-                    <p>Pâte à choux garnie de crème patissière au chocolat et glacée au fondant</p>
-                    <div class="infos">
-                        <div class="time"><i class="ri-time-line"></i> 70 min</div>
-                        <div class="portions"><i class="ri-group-line"></i> 8 pers.</div>
-                        <div class="ingredients"><i class="ri-cake-3-line"></i> 10 ingr.</div>
+            <?php foreach ($recettes as $recette): ?>
+                <div class="recipe">
+                    <div class="thumbnail">
+                        <span class="difficulty <?php echo $recette["difficulte"]; ?>"><?php echo $recette["difficulte"]; ?></span>
+                        <a href="recette.php?id=<?php echo $recette["id"]; ?>">
+                            <img src="assets/images/<?php echo $recette["image"]; ?>" alt="<?php echo $recette["nom"]; ?>">
+                        </a>
                     </div>
-                    <div class="tags">
-                        <span class="tag">Dessert</span>
-                        <span class="tag">Chocolat</span>
-                        <span class="tag">Pâtissserie fine</span>
+                    <div class="content">
+                        <a href="recette.php?id=<?php echo $recette["id"]; ?>">
+                            <h2><?php echo $recette["nom"]; ?></h2>
+                        </a>
+                        <p><?php echo $recette["description"]; ?></p>
+                        <div class="infos">
+                            <div class="time"><i class="ri-time-line"></i> <?php echo $recette["temps_preparation"] + $recette["temps_cuisson"]; ?> min</div>
+                            <div class="portions"><i class="ri-group-line"></i> <?php echo $recette["portions"]; ?> portions</div>
+                            <div class="ingredients"><i class="ri-cake-3-line"></i> <?php echo count($recette["ingredients"]); ?> ingr.</div>
+                        </div>
+                        <div class="tags">
+                            <?php for ($i = 0; $i < 3; $i++): ?>
+                                <span class="tag"><?php echo $recette["tags"][$i]; ?></span>
+                            <?php endfor; ?>
+                        </div>
                     </div>
                 </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </main>
 </body>
